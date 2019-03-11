@@ -37,7 +37,7 @@ To implement login with Angular you should use [Angular X Social Login](https://
 
 The final part will be implementing the Google Search Bar. It will be very similar to the Spotify API Search Bar found in [this project](https://medium.com/@nacimidjakirene/angular-search-autosuggest-with-observables-6f42987f80e6)
 
-You'll need a search endpoint on your backend. This will be another JSON endpoint. It will take in a search and query the database for all entries that contain the search. 
+You'll need a search endpoint on your backend. This will be another JSON endpoint. It will take in a search and query the database for all entries that contain the search. It will end up looking something like [this](https://www.blog.pythonlibrary.org/2017/12/15/flask-101-filtering-searches-and-deleting-data/) though probably a lot less complicated. 
 
 You will also need to add bolding to the parts of the search that match what's in the search bar. I would use a [pipe](https://angular.io/guide/pipes) to accomplish this task.
 
